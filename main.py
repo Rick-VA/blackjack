@@ -60,6 +60,7 @@ while playerIn or dealerIn:
        elif total(dealerHand) >= 21:
               break
 
+# Check who won the game
 if total(playerHand) == 21:
        print(f"\nYou have {playerHand} for a total of {total(playerHand)} and the dealer has {dealerHand} for a total of {total(dealerHand)}")
        print("Blackjack! You win!")
